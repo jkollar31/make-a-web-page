@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Intro to Programming</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="title">	
+<h1>Web Pages, Documents, and Structure</h1>
+</div>
+<div class="lesson">
+	<div class="section">
+		<div class="section-title">
+		<h2>Lesson 1: The Basics of Web and HTML</h2>
+		</div>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Web and HTML</div>
+		<p>
+		   With a computer and a browser a person can send a request to a website using the HTTP protocol and the server
+		   will send back to your computer through a browser the HTML documents that lets the person view the web page. 
+		   Using HTML documents we can display and share information across the web. HTML documents are made up of things
+		   like text, files, images, videos, and  links to other webpages like <a href="http://www.reddit.com">reddit</a>.
+           In order to manipulate the information on an HTML documemt we use <em>tags</em> and <em>attributes</em>.
+		</p>
+		<p>
+			Tags can either be <b>inline</b> or <b>block</b>
+		</p>
+		<b>Inline</b> meaning the information just continues on wrapping around.<br>
+		<b>Block</b> meaning the information is contained with in a block.<p>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Reflections</div>
+		<p>
+			Since HTML is a great way for sharing and displaying information it would be great for displaying information about yourself if you wanted to display your skills of say:
+			creating a webpage, showing a video of your talent, or sharing a new song you just wrote.
+		</p>
+	</div>
+</div>
+<div class="lesson">
+	<div class="section">
+		<div class="section-title">
+		<h3>Lesson 2: Creating a Structured Document with HTML</h3>
+		</div>
+	</div>
+	<div class="notes">
+		<div class="concept-title">How to Translate Information to a Webpage</div>
+		<ul>
+			<li>HTML and CSS are both "languages"</li>
+			<li>HTML controls the "structure" of a web page.</li>
+			<li>
+				<ul>
+					<li>Tags create elements in a tree or the "DOM"</li>
+					<li>Tags will contain content that can be empty, text or another element.</li>
+					<li>Tags can have types paragraph, image, or document division.</li>
+					<li>Tags can have attributes with values.</li>
+				</ul>
+			</li>
+			<li>CSS controls the "style" of a page(how it looks).</li>
+			<li>
+				<ul>
+					<li>CSS changes how the elements look on a page font, color, positioning, etc...</li>
+				</ul>
+			</li>
+			<li>When programmers talk about the "DOM" they are talking about the tree like structure of the page.</li>
+			<li>
+				<ul>
+					<li>A tree structure is the hierarchical nature of the structure in graphical form. The structure is 
+					upside down with the root at the top and the leaves expanding down from the root.</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Grids, Boxes, and Web Pages</div>
+		<ul>
+			<li>Web pages are made up of grids</li>
+			<li>
+				<ul>
+					<li>Boxes are aligned using the grids.</li>
+					<li>
+						<ul>
+							<li>Elements are contained within the boxes.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Create boxes to start a web page</li>
+			<li>
+				<ul>
+					<li>By creating boxes you can work from the big to the small. Start with the big boxes and work down through the structure creating smaller boxes.</li>
+					<li>Use class names to label the boxes.</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Reflections</div>
+		<p>
+			This one lesson has been very beneficial in understanding the makeup of a webpage. I can now look at a webpage and start dissecting it into the boxes and smaller elements that created it. It has even giving more input into how I want to display this page. This is an exciting feeling and reminds of what Obi Wan Kenobi said to Luke "You've taken your first step into a larger world"
+		</p>
+	</div>
+</div>
+<div class="lesson">
+	<div class="section">
+		<div class="section-title">
+		<h4>Lesson 3: Adding CSS Style to HTML Structure</h4>
+		</div>
+	</div>
+	<div class="notes">
+		<div class="concept-title">CSS Structure</div>
+		<p>Two ways to select an HTML element:</p>
+			<ul>
+				<li>Option 1: By element tag... EX. h1{}</li>
+				<li>Option 2: By element class... EX. .class-name{}</li>
+			</ul>
+		<div class="concept-title">Adding style to HTML</div>
+		<p>Option 1:</p>
+			<ol>
+				<li>Add a head tag</li>
+				<li>Add a link tag inside of head tag</li>
+				<li>Add the file location of CSS file</li>
+			</ol>
+		<p>Option 2:</p>
+			<ol>
+				<li>Add a style tag</li>
+				<li>Insert CSS between style tag</li>
+			</ol>
+		<p>Option 3:(Not Recommended)</p>
+			<ol>
+				<li>Add stlye attribute to individual elements</li>
+			</ol>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Inheritance</div>
+		<p>Inheritance in CSS is the mechanism by which properties are applied to a specified element, but also to its descendants. Inheritance prevents repetition of certain properties being declared.</p>
+		<p>Properties that can be inherited are:</p>
+			<ul>
+				<li>color, font, letter-spacing, line-height, list-style, text-align text-indent, text-transform, visibility, white-space and word-spacing.</li>
+			</ul>
+		<p>Properties that cannot be inherited are:</p>
+			<ul>
+				<li>background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index.</li>
+			</ul>
+	</div>
+	<div class="notes">
+		<div class="concept-title">The Box Model</div>
+		<p>The size of the actual element is equal to the sum of the border, padding and content width</p>
+		<ul>
+			<li>An easier way to calculate the size is to use CSS styling box-sizing: border-box</li>
+			<li>
+				<ul>
+					<li>Just set the width of the overall box, so size will always be the same no matter how to change the padding or border</li>
+					<li> In order for older browser to be able to display this style you need to add browser specific prefixes:</li>
+					<li>
+						<ul>
+							<li>-webkit</li>
+							<li>-moz</li>
+							<li>-ms</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>The size of a box can either be by pixel or percentage(recommended)</li>
+		</ul>
+		<p>Positioning of Boxes</p>
+		<ul>
+			<li>The Flex box layout means a flexable box</li>
+			<li>Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.</li>
+			<li>Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.</li>
+		</ul>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Code, Test, Refine</div>
+		<ol>
+			<li>Do this by visually boxifying the structure.</li>
+			<li>Look for repeated Styles and semantic elements</li>
+			<li>Write your HTML</li>
+			<li>Apply Styles (from biggest to smallest)</li>
+			<li>Fix small things</li>
+			<li>Repeat steps 3-4 until happy</li>
+		</ol>
+	</div>
+	<div class="notes">
+		<div class="concept-title">Reflections</div>
+		<p>Code, Test, Refine. This pretty much wraps up what we will be doing for the rest of our lives if we choose the path of a programmer. CSS will probably be the most tedious part of creating the webpage because I feel this where you will be using the dev tools to tinker with sizing and positioning of all your elements. While your CSS file will not be as long as your HTML file you may end up spending more time trying to position all our elements then actually typing HTML, but I am sure this gets easier with practice and understanding.</p>
+	</div>
+
+</div>
+</body>
+</html>
