@@ -1,0 +1,67 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+.concept-title{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.lesson{
+	background-color: rgb(50, 108, 227);
+	padding: 40px;
+	border: 20px;
+	border-style: solid;
+	background-image: url('http://gambit.blob.core.windows.net/conceptfeedback/concepts/fullsize/4451c33c-b98e-4c71-ba25-d91d93af9b4d.jpg')
+	
+	
+	}
+
+.notes{
+	background-color: #FDFFD7;
+	margin: 1%;
+	color: rgb(50, 108, 227);
+	padding: 50px;
+	border-style: solid;
+	border-color: black;
+	font-size: 150%;
+}
+
+.section-title{
+	color: white;
+		
+}
+
+img {
+	width: 10%;
+	
+	
+	}
+
+.title{
+	text-align: center;
+
+}
+
+body{
+	background-color: #FDFFD7;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h2,h3,h4{
+	font-size: 150%;
+}
+
+.section{
+	display: flex;
+}
+
+h1{
+	font-size: 50px;
+}
